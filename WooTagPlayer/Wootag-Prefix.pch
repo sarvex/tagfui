@@ -1,0 +1,38 @@
+/* Copyright (C) 2014 - present : WooTag Pte - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ */
+//
+// Prefix header for all source files of the 'WooTagPlayer' target in the 'WooTagPlayer' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <CoreMedia/CoreMedia.h>
+    #import <CoreVideo/CoreVideo.h>
+    #import <Foundation/Foundation.h>
+    #import <FacebookSDK/FacebookSDK.h>
+    #import <GooglePlus/GooglePlus.h>
+    #import <GoogleOpenSource/GoogleOpenSource.h>
+    #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "NSObject+PE.h"
+    #import "CoreDataModelHeader.h"
+    #import "FHSTwitterEngine.h"
+    #import "ShowAlert.h"
+    #import "MBProgressHUD.h"
+    #import "ApplicationConstants.h"
+    #import "FirstTimeUserExperienceMessages.h"
+    #import <QuartzCore/QuartzCore.h>
+    #import "UIImageView+WebCache.h"
+    #import "DataManager.h"
+    #import "NSString+Additions.h"
+    #import "Base64Converter.h"
+    #import "NSMutableArray+Moving.h"
+#endif

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BuyerInfo" representedClassName="BuyerInfo" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientTagId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobileNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requestTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tagId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FirstTimeUserExperience" representedClassName="FirstTimeUserExperience" syncable="YES">
+        <attribute name="displayTagTool" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="enteredTagExp" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstTimePlaysOthersVideo" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="openOthersVideo" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pause" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="placeTagMarker" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="recording" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="selectedColorNTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="selectedConnections" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="selectedFilter" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="selectedTagBtn" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="selectFilter" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="startRecord" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tagCreationDone" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tagged" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tagLinked" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tagOnOthersVideo" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tagOrLater" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoUploaded" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="NotificationModal" syncable="YES">
+        <attribute name="createdTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptionText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loggedInUserId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notificationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notificationType" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="otherUserId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherUserProfileImgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoImgUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tag" representedClassName="Tag" syncable="YES">
+        <attribute name="clientTagId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="clientVideoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="displayTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fbId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gPlusId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isAdded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isdeleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isModified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPurchased" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isWaitingForUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productCurrencyType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="screenHeight" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="screenWidth" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="screenX" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="screenY" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tagColorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tagId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tagX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tagY" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoHeight" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoPlaybackTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoWidth" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoX" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoY" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="wtId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tagToVideo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Video" inverseName="videoToTags" inverseEntity="Video" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="bannerPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="followers" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="followings" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="lastUpdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalNoOfFollowers" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalNoOfFollowings" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalNoOfLikes" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalNoOfTags" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalNoOfVideos" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videos" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="youFollowing" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="userToVideo" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Video" inverseName="videoToUser" inverseEntity="Video" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName="Video" syncable="YES">
+        <attribute name="browseType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="checksum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="checkSumFailed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="clientId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comments" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="compressedVideoPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coverFrameValue" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="creationTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileUploadCompleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="filterNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="hitCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLibraryVideo" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isUploaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isUploading" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="likesList" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="loadingViewHidden" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="numberOfCmnts" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfLikes" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfTags" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfViews" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="public" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="shareToFB" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="shareToGPlus" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="shareToTw" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalVideoParts" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploadedTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uploadPercent" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPhoto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoDurationTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoPublishingFailed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="videoThumbPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="waitingToUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="videoToTags" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Tag" inverseName="tagToVideo" inverseEntity="Tag" syncable="YES"/>
+        <relationship name="videoToUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="userToVideo" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BuyerInfo" positionX="9" positionY="153" width="128" height="195"/>
+        <element name="FirstTimeUserExperience" positionX="0" positionY="0" width="128" height="330"/>
+        <element name="NotificationModal" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="Tag" positionX="0" positionY="0" width="128" height="600"/>
+        <element name="User" positionX="0" positionY="0" width="128" height="270"/>
+        <element name="Video" positionX="0" positionY="0" width="128" height="660"/>
+    </elements>
+</model>
